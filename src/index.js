@@ -1,14 +1,14 @@
-// let addToy = false;
-// const url = "http://localhost:3000/toys"
-// const toyFormContainer = () => document.querySelector(".container");
-// const addBtn = () => document.querySelector("#new-toy-btn");
-// const toyForm = () => document.querySelector(".add-toy-form")
+let addToy = false;
+const url = "http://localhost:3000/toys"
+const toyFormContainer = () => document.querySelector(".container");
+const addBtn = () => document.querySelector("#new-toy-btn");
+const toyForm = () => document.querySelector(".add-toy-form")
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   addBtn().addEventListener("click", toggleFormDisplay);
-//   toyForm().addEventListener("submit", handleSubmit)
-//   getToys()
-// });
+document.addEventListener("DOMContentLoaded", () => {
+  addBtn().addEventListener("click", toggleFormDisplay);
+  toyForm().addEventListener("submit", handleSubmit)
+  getToys()
+});
 
  // hide & seek with the form
 function toggleFormDisplay(){
